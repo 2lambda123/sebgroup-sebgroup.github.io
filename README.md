@@ -14,7 +14,7 @@
 
 This page is built using [GitHub Pages](https://pages.github.com/), hosted directly from this repository. GitHub Pages uses [Jekyll](https://jekyllrb.com/) as the engine for building the pages. All content is written in [Markdown](https://guides.github.com/features/mastering-markdown/).
 
-The data about SEBs projects and activity is gathered using [GitHub Actions](https://github.com/features/actions) which gathers information from the [sebgroup organization](https://github.com/sebgroup) every night.
+The data about SEBs projects and activity is gathered using [GitHub Actions](https://github.com/features/actions) which gathers information from the [sebgroup organization](https://github.com/sebgroup/sebgroup.github.io) every night.
 
 ## Contributing
 
@@ -30,7 +30,7 @@ Use [Docker Desktop](https://www.docker.com/products/docker-desktop) for develop
 
 2. Run `docker-compose up`
 
-3. Browse to [localhost:4000](http://localhost:4000/)
+3. Browse to [localhost:4000](http://localhost:4000/activity.html)
 
 4. Hack away!
 
