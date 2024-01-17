@@ -14,7 +14,7 @@
 
 This page is built using [GitHub Pages](https://pages.github.com/), hosted directly from this repository. GitHub Pages uses [Jekyll](https://jekyllrb.com/) as the engine for building the pages. All content is written in [Markdown](https://guides.github.com/features/mastering-markdown/).
 
-The data about SEBs projects and activity is gathered using [GitHub Actions](https://github.com/features/actions) which gathers information from the [sebgroup organization](https://github.com/sebgroup) every night.
+The data about SEBs projects and activity is gathered using [GitHub Actions](https://github.com/features/actions) which gathers information from the [sebgroup organization](https://github.com/sebgroup) every night. The GitHub Actions workflow is configured to run specific tests and checks for errors in the code.
 
 ## Contributing
 
@@ -36,4 +36,4 @@ Use [Docker Desktop](https://www.docker.com/products/docker-desktop) for develop
 
 ## Contacts
 
-Open an [issue](https://github.com/sebgroup/sebgroup.github.io/issues/new) or send us an e-mail at [opensource@seb.se](mailto:opensource@seb.se).
+Open an [issue](https://github.com/sebgroup/sebgroup.github.io/issues/new) with details of the error logs encountered during the GitHub Actions run or send us an e-mail at [opensource@seb.se](mailto:opensource@seb.se) with the error logs attached.
