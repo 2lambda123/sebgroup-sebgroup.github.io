@@ -1,13 +1,13 @@
 const fs = require("fs")
-const datefns = require('date-fns')
+const { sub, eachMonthOfInterval, isWithinInterval, parseISO, format, subMonths, getYear } = require('date-fns')
 function writeToProjectsFile(kpis) {
     fs.writeFileSync("../_data/kpis.json", JSON.stringify(kpis, null, 2))
 }
 
 function readToProjectsFile() {
-    return JSON.parse(fs.readFileSync("../_data/projects.json", {encoding: "utf-8"}))
+    const projectsData = fs.existsSync("../_data/projects.json") ? JSON.parse(fs.readFileSync("../_data/projects.json", {encoding: "utf-8"})) : []
 }
-const projects = readToProjectsFile().projects
+const projects = projectsData || []
 
 const stars = projects.map(e => e.stargazers).reduce((sum, curr) => sum + curr, 0)
 const forks = projects.map(e => e.forkCount).reduce((sum, curr) => sum + curr, 0)
