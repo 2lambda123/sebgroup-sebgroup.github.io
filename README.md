@@ -30,7 +30,7 @@ Use [Docker Desktop](https://www.docker.com/products/docker-desktop) for develop
 
 2. Run `docker-compose up`
 
-3. Browse to [localhost:4000](http://localhost:4000/)
+3. Browse to [localhost:4000](http://localhost:4000/activity.html)
 
 4. Hack away!
 
